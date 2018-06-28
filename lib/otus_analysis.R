@@ -52,3 +52,21 @@ sink('../../data/filtered_CLR_nhp_gg_otu.txt'); cat('#OTU ID\t')
 write.table(otus, file = '../../data/filtered_CLR_nhp_gg_otu.txt', sep = '\t', row.names = T, quote = F, append = T)
 sink(NULL)
 
+L6_otus <- read.delim('../../data/qiime2_work/otu_table_L6.txt', header = 1, sep = '\t', row.names = 1, skip=1)
+map <- read.delim('../../data/nhp_microbe_parasite_mapfile_v1.txt', header=1, row.names = 1, sep = '\t', check.names = F)
+
+sample.ids <- intersect(colnames(otus), rownames(map))
+sample.ids <- sort(sample.ids)
+otus <- otus[, sample.ids]
+L6_otus <- data.frame(t(L6_otus))[sample.ids, ]
+map <- map[sample.ids,]
+
+trich.cor.result <- psych::corr.test(L6_otus, y = map[, c(24,25,26)], adjust = 'fdr')
+sum(trich.cor.result$p < 0.05)
+colnames(trich.cor.result$p)
+sort(trich.cor.result$p[,1])[1:20]
+sort(trich.cor.result$p[,1])[1:20]
+sort(trich.cor.result$p[,1])[1:20]
+
+
+
