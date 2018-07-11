@@ -1,6 +1,7 @@
 library(tidyverse)
 library(ggplot2)
 library(polycor)
+library(beeswarm)
 
 # Correlations
 
@@ -254,6 +255,7 @@ map$Trichuris_semiquant <- factor(map$Trichuris_semiquant, levels = c('None','Lo
 map$Trichostrongylus_semiquant <- factor(map$Trichostrongylus_semiquant, levels = c('None','Low','Moderate','High'), ordered = T)
 
 map$Trichuris_semiquant <- droplevels(map$Trichuris_semiquant)
+map$Trichostrongylus_semiquant <- droplevels(map$Trichostrongylus_semiquant)
 
 map.douc <- map[douc.ids, ]
 map.howler <- map[howler.ids, ]
@@ -298,6 +300,14 @@ d.L6hits <- rownames(d.res.trichuris[d.res.trichuris$pairwise.t.pvals<0.05,])
 beeswarm::beeswarm(as.numeric(L6.douc[d.L6hits[2],]) ~ map.douc$Trichuris_semiquant)
 d.L6hits[2]  # IS the most interesting: f__Clostridiaceae
 
+# Save this one
+pdf(file='../../results/Douc_trichuris_taxa.pdf')
+for (dt in c(2)) {
+  beeswarm(as.numeric(L6.douc[d.L6hits[dt],]) ~ map.douc$Trichuris_semiquant,
+           xlab='Trichuris semi-quantitative index', ylab='CLR abundance',
+           main=d.L6hits[dt], cex.main=0.65, cex.axis=0.7)
+}
+dev.off()
 
 # Now with howler
 pairwise.t.pvals <- rep(1,nrow(L6.howler))
@@ -310,4 +320,11 @@ h.L6hits <- rownames(howler.res.trichostrong[howler.res.trichostrong$pairwise.t.
 
 beeswarm::beeswarm(as.numeric(L6.howler[h.L6hits[16],]) ~ map.howler$Trichostrongylus_semiquant)
 # 1,2,6,8,12 are potentially interesting
-
+# Save these ones
+pdf(file='../../results/Howler_trichostrongylus_taxa.pdf')
+for (ht in c(1,2,6,8,12)) {
+  beeswarm(as.numeric(L6.howler[h.L6hits[ht],]) ~ map.howler$Trichostrongylus_semiquant,
+           xlab='Trichostrongylus semi-quantitative index', ylab='CLR abundance',
+           main=h.L6hits[ht], cex.main=0.65, cex.axis=0.7)
+}
+dev.off()
