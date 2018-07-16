@@ -6,7 +6,7 @@ library(beeswarm)
 # Correlations
 
 L6_otus <- read.delim('../../data/qiime2_work/otu_table_L6.txt', header = 1, sep = '\t', row.names = 1, skip=1)
-map <- read.delim('../../data/nhp_microbe_parasite_mapfile_v1.txt', header=1, row.names = 1, sep = '\t', check.names = F)
+map <- read.delim('../../data/nhp_microbe_parasite_mapfile_v2.txt', header=1, row.names = 1, sep = '\t', check.names = F)
 
 #CLR
 otu.t = t(L6_otus); eps = 0.5
@@ -241,14 +241,17 @@ myheatmap <- ggplot(data = dat.m, aes(x=parasite_ordered, y=organism_short_order
 myheatmap
 ggsave(myheatmap, filename = '../../results/howler_microbiome_parasite_correlations.png', dpi = 300, height = 4.5, width = 3.2)
 
-table(x$Trichostrongylus_TC > 0)
+table(x$Trichostrongylus > 0)
 
 
 ## Adding some metadata updates after Tom's comment about using counts as a proxy for intensity/load
 
-map$Strongyloides_semiquant <- cut(map$Strongyloides_TC, breaks=c(-Inf, 1, 10, 100, 1000), label=c("None","Low", "Moderate","High"))
-map$Trichuris_semiquant <- cut(map$Trichuris_TC, breaks=c(-Inf, 1, 10, 100, 1000), label=c("None","Low", "Moderate","High"))
-map$Trichostrongylus_semiquant <- cut(map$Trichostrongylus_TC, breaks=c(-Inf, 1, 10, 100, 1000), label=c("None","Low", "Moderate","Moderate"))
+map$Strongyloides_semiquant <- cut(map$Strongyloides, right = F,
+                                   breaks=c(-Inf, 1, 10, 100, 1000), label=c("None","Low", "Moderate","High"))
+map$Trichuris_semiquant <- cut(map$Trichuris, right = F,
+                               breaks=c(-Inf, 1, 10, 100, 1000), label=c("None","Low", "Moderate","High"))
+map$Trichostrongylus_semiquant <- cut(map$Trichostrongylus, right = F,
+                                      breaks=c(-Inf, 1, 10, 100, 1000), label=c("None","Low", "Moderate","Moderate"))
 
 map$Strongyloides_semiquant <- factor(map$Strongyloides_semiquant, levels = c('None','Low','Moderate','High'), ordered = T)
 map$Trichuris_semiquant <- factor(map$Trichuris_semiquant, levels = c('None','Low','Moderate','High'), ordered = T)
@@ -263,31 +266,32 @@ map.howler <- map[howler.ids, ]
 L6.douc <- data.frame(t(L6.douc))
 L6.howler <- data.frame(t(L6.howler))
 
-Grp.Pvals = rep(1,nrow(L6.douc)) # Initialize p values for groupwise sig. tests\
-Grp.Corrs = rep(0,nrow(L6.douc)) # Initialize correlation chamber (groupwise)\
-Wld.Pvals = rep(1,nrow(L6.douc)) # Initialize p values for wild vs captive tests\
-for (m.ix in 1:nrow(L6.douc)) {  # Loop through all the rows (picrust pathways)
-  try({
-    ps = polyserial(L6.douc[m.ix,],map.douc$Trichuris_semiquant,ML=T,std.err = T)
-    if (is.na(ps$rho)) next
-    Grp.Corrs[m.ix] = ps$rho
-    Grp.Pvals[m.ix] = 1-pchisq(ps$chisq, ps$df) 
-    },silent=T)
-  Wld.Pvals[m.ix] = wilcox.test(as.numeric(L6.douc[m.ix,]) ~ (map.douc$Trichuris_TC>10), exact=F)$p.value
-  }
+####### not using this part currently
+# Grp.Pvals = rep(1,nrow(L6.douc)) # Initialize p values for groupwise sig. tests\
+# Grp.Corrs = rep(0,nrow(L6.douc)) # Initialize correlation chamber (groupwise)\
+# Wld.Pvals = rep(1,nrow(L6.douc)) # Initialize p values for wild vs captive tests\
+# for (m.ix in 1:nrow(L6.douc)) {  # Loop through all the rows (picrust pathways)
+#   try({
+#     ps = polyserial(L6.douc[m.ix,],map.douc$Trichuris_semiquant,ML=T,std.err = T)
+#     if (is.na(ps$rho)) next
+#     Grp.Corrs[m.ix] = ps$rho
+#     Grp.Pvals[m.ix] = 1-pchisq(ps$chisq, ps$df) 
+#     },silent=T)
+#   Wld.Pvals[m.ix] = wilcox.test(as.numeric(L6.douc[m.ix,]) ~ (map.douc$Trichuris>10), exact=F)$p.value
+#   }
+# 
+# # Adjust for multiple tests
+# Grp.Pvals = p.adjust(Grp.Pvals, method = 'fdr')
+# Wld.Pvals = p.adjust(Wld.Pvals, method = 'fdr')
+# 
+# # make and sort a data frame with these columns
+# df = data.frame(Grp.Pvals, Grp.Corrs, Wld.Pvals, row.names = rownames(L6.douc))
+# select = abs(df$Grp.Corrs) > 0.25 | df$Grp.Pvals < 0.25 | df$Wld.Pvals < 0.25
+# df = df[select,]
+# df = df[order(df$Grp.Corrs),]
 
-# Adjust for multiple tests
-Grp.Pvals = p.adjust(Grp.Pvals, method = 'fdr')
-Wld.Pvals = p.adjust(Wld.Pvals, method = 'fdr')
 
-# make and sort a data frame with these columns
-df = data.frame(Grp.Pvals, Grp.Corrs, Wld.Pvals, row.names = rownames(L6.douc))
-select = abs(df$Grp.Corrs) > 0.25 | df$Grp.Pvals < 0.25 | df$Wld.Pvals < 0.25
-df = df[select,]
-df = df[order(df$Grp.Corrs),]
-
-
-# Or, approach with pairwise t
+#### Approach with pairwise t ####
 pairwise.t.pvals <- rep(1,nrow(L6.douc))
 for (pw.ix in 1:nrow(L6.douc)) {
   pairwise.t.pvals[pw.ix] <- min(pairwise.t.test(as.numeric(L6.douc[pw.ix,]), g=map.douc$Trichuris_semiquant, p.adjust.method = 'fdr')$p.value, na.rm=T)
@@ -297,13 +301,13 @@ d.res.trichuris <- data.frame(rownames(L6.douc),pairwise.t.pvals, row.names = ro
 d.L6hits <- rownames(d.res.trichuris[d.res.trichuris$pairwise.t.pvals<0.05,])
 # clostridium.pw.douc <- pairwise.t.test(as.numeric(L6.douc[51,]), g=map.douc$Trichuris_semiquant, p.adjust.method = 'fdr')$p.value
 
-beeswarm::beeswarm(as.numeric(L6.douc[d.L6hits[2],]) ~ map.douc$Trichuris_semiquant)
-d.L6hits[2]  # IS the most interesting: f__Clostridiaceae
+beeswarm::beeswarm(as.numeric(L6.douc[d.L6hits[1],]) ~ map.douc$Trichuris_semiquant)
+d.L6hits[1]  # Is interesting
 
 # Save this one
-pdf(file='../../results/Douc_trichuris_taxa.pdf')
-for (dt in c(2)) {
-  beeswarm(as.numeric(L6.douc[d.L6hits[dt],]) ~ map.douc$Trichuris_semiquant,
+pdf(file='../../results/Douc_trichuris_taxa_v2_boxplot.pdf')
+for (dt in c(1,2)) {
+  boxplot(as.numeric(L6.douc[d.L6hits[dt],]) ~ map.douc$Trichuris_semiquant,
            xlab='Trichuris semi-quantitative index', ylab='CLR abundance',
            main=d.L6hits[dt], cex.main=0.65, cex.axis=0.7)
 }
@@ -318,13 +322,43 @@ sum(pairwise.t.pvals < 0.05)
 howler.res.trichostrong <- data.frame(rownames(L6.howler),pairwise.t.pvals, row.names = rownames(L6.howler))
 h.L6hits <- rownames(howler.res.trichostrong[howler.res.trichostrong$pairwise.t.pvals<0.05,])
 
-beeswarm::beeswarm(as.numeric(L6.howler[h.L6hits[16],]) ~ map.howler$Trichostrongylus_semiquant)
+beeswarm::beeswarm(as.numeric(L6.howler[h.L6hits[5],]) ~ map.howler$Trichostrongylus_semiquant)
 # 1,2,6,8,12 are potentially interesting
 # Save these ones
-pdf(file='../../results/Howler_trichostrongylus_taxa.pdf')
-for (ht in c(1,2,6,8,12)) {
-  beeswarm(as.numeric(L6.howler[h.L6hits[ht],]) ~ map.howler$Trichostrongylus_semiquant,
+pdf(file='../../results/Howler_trichostrongylus_taxa_v2_boxplots.pdf')
+for (ht in 1:length(h.L6hits)) {
+  boxplot(as.numeric(L6.howler[h.L6hits[ht],]) ~ map.howler$Trichostrongylus_semiquant,
            xlab='Trichostrongylus semi-quantitative index', ylab='CLR abundance',
            main=h.L6hits[ht], cex.main=0.65, cex.axis=0.7)
 }
 dev.off()
+
+
+# Now do it for all of them!
+map$all_parasites_ct <- rowSums(map[, 22:32])
+map$all_parasites_semiquant <- cut(map$all_parasites_ct, right = F,
+                                   breaks=c(-Inf, 1, 10, 100, 1000), label=c("None","Low", "Moderate","Moderate"))
+# Changed the high to moderate because there is only 1 with 100+ counts
+map$all_parasites_semiquant <- factor(map$all_parasites_semiquant,
+                                      levels = c('None','Low','Moderate'), ordered = T)
+
+map <- map[sample.ids, ]
+L6_otus.pwt <- data.frame(t(L6_otus[sample.ids, ]))
+
+pairwise.t.pvals <- rep(1,nrow(L6_otus.pwt))
+for (pw.ix in 1:nrow(L6_otus.pwt)) {
+  pairwise.t.pvals[pw.ix] <- min(pairwise.t.test(as.numeric(L6_otus.pwt[pw.ix,]), g=map$all_parasites_semiquant,
+                                                 p.adjust.method = 'fdr')$p.value, na.rm=T)
+}
+sum(pairwise.t.pvals < (0.002))
+all.res <- data.frame(rownames(L6_otus.pwt),pairwise.t.pvals, row.names = rownames(L6_otus.pwt))
+all.L6hits <- rownames(all.res[all.res$pairwise.t.pvals<0.001,])
+
+pdf(file='../../results/all_parasites_vs_taxa_boxplots.pdf')
+for (ht in 1:length(all.L6hits)) {
+  boxplot(as.numeric(L6_otus.pwt[all.L6hits[ht],]) ~ map$all_parasites_semiquant,
+          xlab='All parasites semi-quantitative index', ylab='CLR abundance',
+          main=all.L6hits[ht], cex.main=0.65, cex.axis=0.7)
+}
+dev.off()
+
