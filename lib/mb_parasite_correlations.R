@@ -362,3 +362,7 @@ for (ht in 1:length(all.L6hits)) {
 }
 dev.off()
 
+# Save the full map file
+# map.w <- tibble::rownames_to_column(map, var = '#SampleID')
+# write.table(map.w, '../../data/nhp_microbe-parasite_map_w-groups_180720.txt', quote=F,
+#             sep = '\t', row.names = F)
