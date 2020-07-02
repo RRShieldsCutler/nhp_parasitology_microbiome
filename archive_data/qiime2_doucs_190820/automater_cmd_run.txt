@@ -1,0 +1,1 @@
+/Users/rshield2/bin/qiime2_automater/qiime2_2018.11_automater.py ../douc_otutable_nc.qza ../douc_microbe-parasite_map_w-groups_190820.txt /Users/rshield2/bin/gg97_taxonomy.qza 21990 /Users/rshield2/bin/gg97_q2tree.qza NONE
