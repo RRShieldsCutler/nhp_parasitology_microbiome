@@ -1,0 +1,46 @@
+sampleid	Oesophagostumum	Necator	Strongyloides	Trichuris	Trichostrongylus	Mammonogamous	Ascaris	Physaloptera	Fasciola	Digenean trematode eggs	all_parasites_ct	all_parasites_presence	all_parasites_semiquant	SpeciesCommonName	SpeciesScientificName	CaptivityIndex	CaptiveWild	Population	Sex	Age	AgeClass	CollectionCondition
+Abita	0	0	0	0	0	0	0	0	0	0	0	negative	none	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 1	Female	16 yrs	Adult	Capture
+Agate	0	0	2	0	8	0	0	0	0	0	10	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Female	10 yrs	Adult	Natural Environment
+Alana	0	0	0	0	0	0	0	0	0	0	0	negative	none	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 1	Female	Unknown	Unknown	Natural Environment
+Ariadne	0	0	0	0	0.5	0	0	0	0	0	0.5	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Female	6 yrs	Adult	Natural Environment
+Azalea	0	0	1	0	9	0	0	0	0	0	10	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Female	22 yrs	Adult	Natural Environment
+Bathsheba	0	0	8	0	23	0	0	0	0	0	31	positive	high	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Female	2-3 yrs	Adult	Capture
+Callopie	0	0	17.5	0	68	0	0	0	0	0	85.5	positive	high	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 1	Female	7 yrs	Adult	Capture
+Corey	0	0	0	0	0	0	0	0	0	0	0	negative	none	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Male	8 yrs	Adult	Natural Environment
+Dyani	0	0	1	0	16	0	0	0	0	0	17	positive	high	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 1	Male	Unknown	Unknown	Capture
+Ivanhoe	0	0	4	0	4	0	0	0	0	0	8	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Male	10 mo	Infant	Capture
+Ivy	0	0	0	0	8.5	0	0	0	0	0	8.5	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Female	10 yrs	Adult	Natural Environment
+Jordan	0	0	0	0	1	0	0	0	0	0	1	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Male	11 yrs	Adult	Natural Environment
+Juniper	0	0	0	0	2	0	0	0	0	0	2	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Female	21 yrs	Adult	Natural Environment
+Luna	0	0	0	0	3	0	0	0	0	0	3	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Female	5 yrs	Adult	Natural Environment
+Mimosa	0	0	1	0	4	0	0	0	0	0	5	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Female	5 yrs	Adult	Capture
+Minerva	0	0	0	0	5	0	0	0	0	0	5	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Female	22 yrs 	Adult	Natural Environment
+Nyx	0	0	6	0	32	0	0	0	0	0	38	positive	high	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Female	18 mo	Juvenile	Capture
+Octavia	0	0	0	0	2	0	0	0	0	0	2	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Female	7 yrs	Adult	Natural Environment
+Odysseus	0	0	0	0	11	0	0	0	0	0	11	positive	high	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Male	9 yrs	Adult	Natural Environment
+Orf	0	0	0	0	8	0	0	0	0	0	8	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Male	18 yrs	Adult	Natural Environment
+Rambo_II	0	0	0	0	0	0	0	0	0	0	0	negative	none	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Male	21 yrs	Adult	Capture
+Siobhan	0	0	0	0	5	0	0	0	0	0	5	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Female	12 yrs	Adult	Natural Environment
+St_Patrick	0	0	0	0	0	0	0	0	0	0	0	negative	none	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 43	Male	6 yrs	Adult	Capture
+Talia	0	0	0	0	0	0	0	0	0	0	0	negative	none	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Female	7 yrs	Adult	Natural Environment
+Theodora	0	0	0	0	4	0	0	0	0	0	4	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Female	19 yrs	Adult	Capture
+Unknown	0	0	0	0	15	0	0	0	0	0	15	positive	high	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 1	Unknown	Unknown	Unknown	Natural Environment
+Unknown_G2.1	0	0	0	0	0	0	0	0	0	0	0	negative	none	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Unknown	Unknown	Juvenile	Natural Environment
+Unknown_G2.2	0	0	21	0	57	0	0	0	0	2	80	positive	high	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Unknown	15 mo.	Juvenile	Natural Environment
+Unknown_G2.3	0	0	0	0	0	0	0	0	0	0	0	negative	none	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Female	30 mo	Juvenile	Capture
+URG.1	1	0	3	0	5	0	0	0	0	0	9	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	Male	Unknown	Unknown	Natural Environment
+URG.10	0	0	0	0	0	0	0	0	0	0	0	negative	none	mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	Unknown	Unknown	Unknown	Natural Environment
+URG.11	0	0	0	0	0	0	0	0	0	0	0	negative	none	mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	Unknown	Unknown	Unknown	Natural Environment
+URG.12	0	0	0	0	0	0	0	0	0	0	0	negative	none	mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	Unknown	Unknown	Unknown	Natural Environment
+URG.13	0	0	2	0	1	0	0	0	0	0	3	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	Unknown	Unknown	Unknown	Natural Environment
+URG.14	0	0	0	0	1	0	0	0	0	0	1	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	Unknown	Unknown	Unknown	Natural Environment
+URG.2	0	0	0	0	0	0	0	0	0	0	0	negative	none	mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	Female	Unknown	Unknown	Natural Environment
+URG.3	0	0	0	0	0	0	0	0	0	0	0	negative	none	mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	Female	Unknown	Unknown	Natural Environment
+URG.4	0	0	0	0	3	0	0	0	0	0	3	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	Female	Unknown	Unknown	Natural Environment
+URG.5	0	0	0	0	5	0	0	0	0	0	5	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	Unknown	Unknown	Unknown	Natural Environment
+URG.6	1	0	0	0	1	0	0	0	0	0	2	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	Unknown	Unknown	Unknown	Natural Environment
+URG.7	0	0	0	0	0	0	0	0	1	0	1	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	Unknown	Unknown	Unknown	Natural Environment
+URG.8	0	0	0	0	1	0	0	0	0	0	1	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	Unknown	Unknown	Unknown	Natural Environment
+URG.9	0	0	2	0	44	0	0	0	0	0	46	positive	high	mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	Unknown	Unknown	Unknown	Natural Environment
+Wings	0	0	2	0	2	0	0	0	0	1	5	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Male	6 yrs	Adult	Natural Environment
+Zanahoria	0	0	0	0	1	0	0	0	0	0	1	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Female	9-11 yrs	Adult	Natural Environment

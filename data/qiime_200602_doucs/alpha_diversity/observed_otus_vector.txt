@@ -1,0 +1,41 @@
+	observed_otus
+LFG_AM (LFM)	745
+LSG_AM (LSM)	834
+LSG_AFO	791
+LSG_Unknown	900
+LSG_AFY	843
+RSG_AM_2	746
+RSG_AM (RSM)	831
+RSG_SubAM_1	737
+UNKG_Unknown_1	876
+UNKG_Unknown_2	766
+UNKG_Unknown_3	809
+UNKG_Unknown_4	839
+UNKG_Unknown_5	818
+UNKG_Unknown_6	796
+UNKG_Unknown_7	784
+UNKG_Unknown_8	902
+UNKG_Unknown_9	753
+UNKG_Unknown_10	737
+UNKG_Unknown_11	729
+UNKG_Unknown_12	791
+UNKG_Unknown_13	769
+UNKG_Unknown_14	739
+UNKG_Unknown_15	763
+UNKG_Unknown_16	725
+UNKG_Unknown_17	725
+UNKG_Unknown_18	683
+UNKG_Unknown_19	725
+UNKG_Unknown_20	847
+UNKG_Unknown_21	824
+UNKG_Unknown_22	885
+UNKG_Unknown_23	824
+UNKG_Unknown_24	761
+UNKG_Unknown_25	937
+UNKG_Unknown_26	763
+UNKG_Unknown_27	750
+UNKG_Unknown_28	926
+UNKG_Unknown_29	866
+UNKG_Unknown_30	721
+UNKG_Unknown_31	795
+UNKG_Unknown_32	760

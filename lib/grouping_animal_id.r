@@ -23,7 +23,11 @@ worm.mean.counts$all_parasites_semiquant <- cut(worm.mean.counts$all_parasites_c
                                                 labels = c("none","low","high"))
 table(worm.mean.counts$all_parasites_semiquant)
 
+animal.meta <- animal.meta[!duplicated(animal.meta$AnimalID),]
+
 nhp.parasite.meta <- merge(worm.mean.counts, animal.meta, by='AnimalID')
+
+colnames(nhp.parasite.meta)[1] <- "sampleid"  # Because QIIME2 will want it this way
 
 write.table(nhp.parasite.meta, file = '../../data/nhp_animal_parasite_map_200602.txt', quote = F, sep = '\t', row.names = F)
 # make the howler and douc ones
@@ -32,3 +36,7 @@ howler.parasite.meta <- nhp.parasite.meta[nhp.parasite.meta$SpeciesCommonName ==
 douc.parasite.meta <- nhp.parasite.meta[nhp.parasite.meta$SpeciesCommonName == "red-shanked-douc",]
 write.table(howler.parasite.meta, file = '../../data/howler_animal_parasite_map_200602.txt', quote = F, sep = '\t', row.names = F)
 write.table(douc.parasite.meta, file = '../../data/douc_animal_parasite_map_200602.txt', quote = F, sep = '\t', row.names = F)
+wild.howler.parasite.meta <- howler.parasite.meta[howler.parasite.meta$CaptiveWild == 'Wild',]
+write.table(wild.howler.parasite.meta, file = '../../data/wild-howler_animal_parasite_map_200602.txt', quote = F, sep = '\t', row.names = F)
+dim(wild.howler.parasite.meta)
+

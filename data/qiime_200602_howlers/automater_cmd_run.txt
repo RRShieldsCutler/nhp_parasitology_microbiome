@@ -1,0 +1,1 @@
+/Users/rshield2/bin/qiime2_automater/qiime2_2018.11_automater.py ../howler_animal-sum_otutable_200602.qza ../howler_animal_parasite_map_200602.txt /Users/rshield2/bin/gg97_taxonomy.qza 14825 /Users/rshield2/bin/gg97_q2tree.qza NONE

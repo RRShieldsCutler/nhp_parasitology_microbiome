@@ -1,19 +1,16 @@
-AnimalID	Oesophagostumum	Necator	Strongyloides	Trichuris	Trichostrongylus	Mammonogamous	Ascaris	Physaloptera	Fasciola	Digenean trematode eggs	all_parasites_ct	all_parasites_presence	all_parasites_semiquant	SpeciesCommonName	SpeciesScientificName	CaptivityIndex	CaptiveWild	Population	Sex	Age	AgeClass	CollectionCondition
+sampleid	Oesophagostumum	Necator	Strongyloides	Trichuris	Trichostrongylus	Mammonogamous	Ascaris	Physaloptera	Fasciola	Digenean trematode eggs	all_parasites_ct	all_parasites_presence	all_parasites_semiquant	SpeciesCommonName	SpeciesScientificName	CaptivityIndex	CaptiveWild	Population	Sex	Age	AgeClass	CollectionCondition
 Abita	0	0	0	0	0	0	0	0	0	0	0	negative	none	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 1	Female	16 yrs	Adult	Capture
 Abu	0	0	9	0	54	0	0	0	0	0	63	positive	high	mantled-howling-monkey	Alouatta palliata	2	Captive	Las Pumas Rescue Center	Male	10 mo.	Infant	Unknown
 Agate	0	0	2	0	8	0	0	0	0	0	10	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Female	10 yrs	Adult	Natural Environment
 Alana	0	0	0	0	0	0	0	0	0	0	0	negative	none	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 1	Female	Unknown	Unknown	Natural Environment
 Ariadne	0	0	0	0	0.5	0	0	0	0	0	0.5	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Female	6 yrs	Adult	Natural Environment
-Ariadne	0	0	0	0	0.5	0	0	0	0	0	0.5	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Female	6 yrs	Adult	Natural Environment
 Azalea	0	0	1	0	9	0	0	0	0	0	10	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Female	22 yrs	Adult	Natural Environment
 Bathsheba	0	0	8	0	23	0	0	0	0	0	31	positive	high	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Female	2-3 yrs	Adult	Capture
 Callopie	0	0	17.5	0	68	0	0	0	0	0	85.5	positive	high	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 1	Female	7 yrs	Adult	Capture
-Callopie	0	0	17.5	0	68	0	0	0	0	0	85.5	positive	high	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 1	Female	7 yrs	Adult	Natural Environment
 Captive_Baby	0	0	0	0	6	0	0	0	0	0	6	positive	low	mantled-howling-monkey	Alouatta palliata	2	Captive	Las Pumas Rescue Center	Male	3.5 mo.	Infant	Unknown
 Corey	0	0	0	0	0	0	0	0	0	0	0	negative	none	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Male	8 yrs	Adult	Natural Environment
 Dyani	0	0	1	0	16	0	0	0	0	0	17	positive	high	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 1	Male	Unknown	Unknown	Capture
 Ivanhoe	0	0	4	0	4	0	0	0	0	0	8	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Male	10 mo	Infant	Capture
-Ivy	0	0	0	0	8.5	0	0	0	0	0	8.5	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Female	10 yrs	Adult	Capture
 Ivy	0	0	0	0	8.5	0	0	0	0	0	8.5	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Female	10 yrs	Adult	Natural Environment
 Jordan	0	0	0	0	1	0	0	0	0	0	1	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Male	11 yrs	Adult	Natural Environment
 Juniper	0	0	0	0	2	0	0	0	0	0	2	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Female	21 yrs	Adult	Natural Environment
@@ -25,8 +22,6 @@ Nilsson	0	0	0	0	0	0	0	0	0	0	0	negative	none	mantled-howling-monkey	Alouatta pall
 Nyx	0	0	6	0	32	0	0	0	0	0	38	positive	high	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Female	18 mo	Juvenile	Capture
 Octavia	0	0	0	0	2	0	0	0	0	0	2	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Female	7 yrs	Adult	Natural Environment
 Odysseus	0	0	0	0	11	0	0	0	0	0	11	positive	high	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Male	9 yrs	Adult	Natural Environment
-Odysseus	0	0	0	0	11	0	0	0	0	0	11	positive	high	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Male	9 yrs	Adult	Natural Environment
-Orf	0	0	0	0	8	0	0	0	0	0	8	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Male	18 yrs	Adult	Natural Environment
 Orf	0	0	0	0	8	0	0	0	0	0	8	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Male	18 yrs	Adult	Natural Environment
 Rambo_II	0	0	0	0	0	0	0	0	0	0	0	negative	none	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Male	21 yrs	Adult	Capture
 Siobhan	0	0	0	0	5	0	0	0	0	0	5	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Female	12 yrs	Adult	Natural Environment
