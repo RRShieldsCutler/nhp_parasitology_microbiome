@@ -1,0 +1,105 @@
+AnimalID	Oesophagostumum	Necator	Strongyloides	Trichuris	Trichostrongylus	Mammonogamous	Ascaris	Physaloptera	Fasciola	Digenean trematode eggs	all_parasites_ct	all_parasites_presence	all_parasites_semiquant	SpeciesCommonName	SpeciesScientificName	CaptivityIndex	CaptiveWild	Population	Sex	Age	AgeClass	CollectionCondition
+Abita	0	0	0	0	0	0	0	0	0	0	0	negative	none	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 1	Female	16 yrs	Adult	Capture
+Abu	0	0	9	0	54	0	0	0	0	0	63	positive	high	mantled-howling-monkey	Alouatta palliata	2	Captive	Las Pumas Rescue Center	Male	10 mo.	Infant	Unknown
+Agate	0	0	2	0	8	0	0	0	0	0	10	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Female	10 yrs	Adult	Natural Environment
+Alana	0	0	0	0	0	0	0	0	0	0	0	negative	none	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 1	Female	Unknown	Unknown	Natural Environment
+Ariadne	0	0	0	0	0.5	0	0	0	0	0	0.5	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Female	6 yrs	Adult	Natural Environment
+Ariadne	0	0	0	0	0.5	0	0	0	0	0	0.5	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Female	6 yrs	Adult	Natural Environment
+Azalea	0	0	1	0	9	0	0	0	0	0	10	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Female	22 yrs	Adult	Natural Environment
+Bathsheba	0	0	8	0	23	0	0	0	0	0	31	positive	high	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Female	2-3 yrs	Adult	Capture
+Callopie	0	0	17.5	0	68	0	0	0	0	0	85.5	positive	high	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 1	Female	7 yrs	Adult	Capture
+Callopie	0	0	17.5	0	68	0	0	0	0	0	85.5	positive	high	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 1	Female	7 yrs	Adult	Natural Environment
+Captive_Baby	0	0	0	0	6	0	0	0	0	0	6	positive	low	mantled-howling-monkey	Alouatta palliata	2	Captive	Las Pumas Rescue Center	Male	3.5 mo.	Infant	Unknown
+Corey	0	0	0	0	0	0	0	0	0	0	0	negative	none	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Male	8 yrs	Adult	Natural Environment
+Dyani	0	0	1	0	16	0	0	0	0	0	17	positive	high	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 1	Male	Unknown	Unknown	Capture
+Ivanhoe	0	0	4	0	4	0	0	0	0	0	8	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Male	10 mo	Infant	Capture
+Ivy	0	0	0	0	8.5	0	0	0	0	0	8.5	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Female	10 yrs	Adult	Capture
+Ivy	0	0	0	0	8.5	0	0	0	0	0	8.5	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Female	10 yrs	Adult	Natural Environment
+Jordan	0	0	0	0	1	0	0	0	0	0	1	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Male	11 yrs	Adult	Natural Environment
+Juniper	0	0	0	0	2	0	0	0	0	0	2	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Female	21 yrs	Adult	Natural Environment
+LFG_AM (LFM)	0	0	0	0	0	0	0	0	0	0	0	negative	none	red-shanked-douc	Pygathrix nemaeus	0	Wild	Long face group	Male	Unknown	Adult	Natural Environment
+LSG_AFO	0	0	0	24.3333333333333	0	0	0	0	0	0	24.3333333333333	positive	high	red-shanked-douc	Pygathrix nemaeus	0	Wild	Left Scar Group	Female	Unknown	Adult	Natural Environment
+LSG_AFO	0	0	0	24.3333333333333	0	0	0	0	0	0	24.3333333333333	positive	high	red-shanked-douc	Pygathrix nemaeus	0	Wild	Left Scar Group	Female	Unknown	Adult	Natural Environment
+LSG_AFO	0	0	0	24.3333333333333	0	0	0	0	0	0	24.3333333333333	positive	high	red-shanked-douc	Pygathrix nemaeus	0	Wild	Left Scar Group	Female	Unknown	Adult	Natural Environment
+LSG_AFY	0	0	0	27.5	0	0	0	0	0	0	27.5	positive	high	red-shanked-douc	Pygathrix nemaeus	0	Wild	Left Scar Group	Female	Unknown	Adult	Natural Environment
+LSG_AFY	0	0	0	27.5	0	0	0	0	0	0	27.5	positive	high	red-shanked-douc	Pygathrix nemaeus	0	Wild	Left Scar Group	Female	Unknown	Adult	Natural Environment
+LSG_AM (LSM)	0	0	0	48	0	0	0	0	0	0	48	positive	high	red-shanked-douc	Pygathrix nemaeus	0	Wild	Left Scar Group	Male	Unknown	Adult	Natural Environment
+LSG_AM (LSM)	0	0	0	48	0	0	0	0	0	0	48	positive	high	red-shanked-douc	Pygathrix nemaeus	0	Wild	Left Scar Group	Male	Unknown	Adult	Natural Environment
+LSG_AM (LSM)	0	0	0	48	0	0	0	0	0	0	48	positive	high	red-shanked-douc	Pygathrix nemaeus	0	Wild	Left Scar Group	Male	Unknown	Adult	Natural Environment
+LSG_AM (LSM)	0	0	0	48	0	0	0	0	0	0	48	positive	high	red-shanked-douc	Pygathrix nemaeus	0	Wild	Left Scar Group	Male	Unknown	Adult	Natural Environment
+LSG_Unknown	0	0	0	88	0	0	0	0	0	0	88	positive	high	red-shanked-douc	Pygathrix nemaeus	0	Wild	Left Scar Group	Female	Unknown	Adult	Natural Environment
+Luna	0	0	0	0	3	0	0	0	0	0	3	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Female	5 yrs	Adult	Natural Environment
+Marra	0	0	0	0	1	0	0	0	0	0	1	positive	low	mantled-howling-monkey	Alouatta palliata	2	Captive	Las Pumas Rescue Center	Female	5 mo	Infant	Unknown
+Mimosa	0	0	1	0	4	0	0	0	0	0	5	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Female	5 yrs	Adult	Capture
+Minerva	0	0	0	0	5	0	0	0	0	0	5	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Female	22 yrs 	Adult	Natural Environment
+Nilsson	0	0	0	0	0	0	0	0	0	0	0	negative	none	mantled-howling-monkey	Alouatta palliata	2	Captive	Las Pumas Rescue Center	Male	2 yrs	Juvenile	Unknown
+Nyx	0	0	6	0	32	0	0	0	0	0	38	positive	high	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Female	18 mo	Juvenile	Capture
+Octavia	0	0	0	0	2	0	0	0	0	0	2	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Female	7 yrs	Adult	Natural Environment
+Odysseus	0	0	0	0	11	0	0	0	0	0	11	positive	high	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Male	9 yrs	Adult	Natural Environment
+Odysseus	0	0	0	0	11	0	0	0	0	0	11	positive	high	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Male	9 yrs	Adult	Natural Environment
+Orf	0	0	0	0	8	0	0	0	0	0	8	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Male	18 yrs	Adult	Natural Environment
+Orf	0	0	0	0	8	0	0	0	0	0	8	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Male	18 yrs	Adult	Natural Environment
+Rambo_II	0	0	0	0	0	0	0	0	0	0	0	negative	none	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Male	21 yrs	Adult	Capture
+RSG_AM (RSM)	0	0	0	8	0	0	0.25	0	0	0	8.25	positive	low	red-shanked-douc	Pygathrix nemaeus	0	Wild	Right Scar Group	Male	Unknown	Adult	Natural Environment
+RSG_AM (RSM)	0	0	0	8	0	0	0.25	0	0	0	8.25	positive	low	red-shanked-douc	Pygathrix nemaeus	0	Wild	Right Scar Group	Male	Unknown	Adult	Natural Environment
+RSG_AM (RSM)	0	0	0	8	0	0	0.25	0	0	0	8.25	positive	low	red-shanked-douc	Pygathrix nemaeus	0	Wild	Right Scar Group	Male	Unknown	Adult	Natural Environment
+RSG_AM (RSM)	0	0	0	8	0	0	0.25	0	0	0	8.25	positive	low	red-shanked-douc	Pygathrix nemaeus	0	Wild	Right Scar Group	Male	Unknown	Adult	Natural Environment
+RSG_AM_2	0	0	0	1	0	0	0	0	0	0	1	positive	low	red-shanked-douc	Pygathrix nemaeus	0	Wild	Right Scar Group	Male	Unknown	Adult	Natural Environment
+RSG_SubAM_1	0	0	0	19	0	0	0	0	0	0	19	positive	high	red-shanked-douc	Pygathrix nemaeus	0	Wild	Right Scar Group	Male	Unknown	Subadult	Natural Environment
+Siobhan	0	0	0	0	5	0	0	0	0	0	5	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Female	12 yrs	Adult	Natural Environment
+St_Patrick	0	0	0	0	0	0	0	0	0	0	0	negative	none	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 43	Male	6 yrs	Adult	Capture
+Talia	0	0	0	0	0	0	0	0	0	0	0	negative	none	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Female	7 yrs	Adult	Natural Environment
+Theodora	0	0	0	0	4	0	0	0	0	0	4	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Female	19 yrs	Adult	Capture
+UNKG_Unknown_1	0	0	0	31	0	0	0	0	0	0	31	positive	high	red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	Male	Unknown	Adult	Natural Environment
+UNKG_Unknown_10	0	0	0	34	0	0	0	0	0	0	34	positive	high	red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	Unknown	Unknown	Unknown	Natural Environment
+UNKG_Unknown_11	0	0	0	49	0	0	0	0	0	0	49	positive	high	red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	Unknown	Unknown	Unknown	Natural Environment
+UNKG_Unknown_12	0	0	0	3	0	0	0	0	0	0	3	positive	low	red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	Unknown	Unknown	Adult	Natural Environment
+UNKG_Unknown_13	0	0	0	14	0	0	0	0	0	0	14	positive	high	red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	Unknown	Unknown	Unknown	Natural Environment
+UNKG_Unknown_14	0	0	0	17	0	0	0	0	0	0	17	positive	high	red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	Unknown	Unknown	Unknown	Natural Environment
+UNKG_Unknown_15	0	0	0	37	0	0	0	0	0	0	37	positive	high	red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	Unknown	Unknown	Adult	Natural Environment
+UNKG_Unknown_16	0	0	0	29	0	0	0	0	0	0	29	positive	high	red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	Unknown	Unknown	Unknown	Natural Environment
+UNKG_Unknown_17	0	0	0	36	0	0	0	0	0	0	36	positive	high	red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	Unknown	Unknown	Unknown	Natural Environment
+UNKG_Unknown_18	0	0	0	44	0	0	0	0	0	0	44	positive	high	red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	Female	Unknown	Adult	Natural Environment
+UNKG_Unknown_19	0	0	0	7	0	0	0	0	0	0	7	positive	low	red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	Male	Unknown	Adult	Natural Environment
+UNKG_Unknown_2	0	0	0	14	0	0	0	0	0	0	14	positive	high	red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	Male	Unknown	Adult	Natural Environment
+UNKG_Unknown_20	0	0	0	0	0	0	0	0	0	0	0	negative	none	red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	Unknown	Unknown	Unknown	Natural Environment
+UNKG_Unknown_21	0	0	0	48	0	0	0	0	0	0	48	positive	high	red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	Male	Unknown	Adult	Natural Environment
+UNKG_Unknown_22	0	0	0	0	0	0	0	0	0	0	0	negative	none	red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	Unknown	Unknown	Unknown	Natural Environment
+UNKG_Unknown_23	0	0	0	1	0	0	0	0	0	0	1	positive	low	red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	Unknown	Unknown	Unknown	Natural Environment
+UNKG_Unknown_24	0	0	0	0	0	0	0	0	0	0	0	negative	none	red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	Unknown	Unknown	Unknown	Natural Environment
+UNKG_Unknown_25	0	0	0	17	0	0	0	0	0	0	17	positive	high	red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	Unknown	Unknown	Unknown	Natural Environment
+UNKG_Unknown_26	0	0	0	0	0	0	0	0	0	0	0	negative	none	red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	Male	Unknown	Adult	Natural Environment
+UNKG_Unknown_27	0	0	0	48	0	0	0	0	0	0	48	positive	high	red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	Female	Unknown	Adult	Natural Environment
+UNKG_Unknown_28	0	0	0	25	0	0	0	0	0	0	25	positive	high	red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	Unknown	Unknown	Unknown	Natural Environment
+UNKG_Unknown_29	0	0	0	49	0	0	0	0	0	0	49	positive	high	red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	Male	Unknown	Adult	Natural Environment
+UNKG_Unknown_3	0	0	0	13	0	0	0	0	0	0	13	positive	high	red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	Female	Unknown	Adult	Natural Environment
+UNKG_Unknown_30	0	0	0	3	0	0	0	0	0	0	3	positive	low	red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	Unknown	Unknown	Unknown	Natural Environment
+UNKG_Unknown_31	0	0	0	14	0	0	0	0	0	0	14	positive	high	red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	Unknown	Unknown	Unknown	Natural Environment
+UNKG_Unknown_32	0	0	0	58	0	0	0	0	0	0	58	positive	high	red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	Unknown	Unknown	Unknown	Natural Environment
+UNKG_Unknown_4	0	0	0	20	0	0	0	0	0	0	20	positive	high	red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	Unknown	Unknown	Unknown	Natural Environment
+UNKG_Unknown_5	0	0	0	7	0	0	0	0	0	0	7	positive	low	red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	Male	Unknown	Adult	Natural Environment
+UNKG_Unknown_6	0	0	0	50	0	0	0	0	0	0	50	positive	high	red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	Male	Unknown	Adult	Natural Environment
+UNKG_Unknown_7	0	0	0	46	0	0	0	0	0	0	46	positive	high	red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	Male	Unknown	Adult	Natural Environment
+UNKG_Unknown_8	0	0	0	6	0	0	0	0	0	0	6	positive	low	red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	Unknown	Unknown	Unknown	Natural Environment
+UNKG_Unknown_9	0	0	0	22	0	0	0	0	0	0	22	positive	high	red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	Male	Unknown	Adult	Natural Environment
+Unknown	0	0	0	0	15	0	0	0	0	0	15	positive	high	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 1	Unknown	Unknown	Unknown	Natural Environment
+Unknown_FRC5	0	0	0	0	0	0	0	0	0	0	0	negative	none	mantled-howling-monkey	Alouatta palliata	2	Captive	Las Pumas Rescue Center	Female	Unknown (juvenile)	Juvenile	Unknown
+Unknown_G2.1	0	0	0	0	0	0	0	0	0	0	0	negative	none	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Unknown	Unknown	Juvenile	Natural Environment
+Unknown_G2.2	0	0	21	0	57	0	0	0	0	2	80	positive	high	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Unknown	15 mo.	Juvenile	Natural Environment
+Unknown_G2.3	0	0	0	0	0	0	0	0	0	0	0	negative	none	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Female	30 mo	Juvenile	Capture
+URG.1	1	0	3	0	5	0	0	0	0	0	9	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	Male	Unknown	Unknown	Natural Environment
+URG.10	0	0	0	0	0	0	0	0	0	0	0	negative	none	mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	Unknown	Unknown	Unknown	Natural Environment
+URG.11	0	0	0	0	0	0	0	0	0	0	0	negative	none	mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	Unknown	Unknown	Unknown	Natural Environment
+URG.12	0	0	0	0	0	0	0	0	0	0	0	negative	none	mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	Unknown	Unknown	Unknown	Natural Environment
+URG.13	0	0	2	0	1	0	0	0	0	0	3	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	Unknown	Unknown	Unknown	Natural Environment
+URG.14	0	0	0	0	1	0	0	0	0	0	1	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	Unknown	Unknown	Unknown	Natural Environment
+URG.2	0	0	0	0	0	0	0	0	0	0	0	negative	none	mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	Female	Unknown	Unknown	Natural Environment
+URG.3	0	0	0	0	0	0	0	0	0	0	0	negative	none	mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	Female	Unknown	Unknown	Natural Environment
+URG.4	0	0	0	0	3	0	0	0	0	0	3	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	Female	Unknown	Unknown	Natural Environment
+URG.5	0	0	0	0	5	0	0	0	0	0	5	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	Unknown	Unknown	Unknown	Natural Environment
+URG.6	1	0	0	0	1	0	0	0	0	0	2	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	Unknown	Unknown	Unknown	Natural Environment
+URG.7	0	0	0	0	0	0	0	0	1	0	1	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	Unknown	Unknown	Unknown	Natural Environment
+URG.8	0	0	0	0	1	0	0	0	0	0	1	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	Unknown	Unknown	Unknown	Natural Environment
+URG.9	0	0	2	0	44	0	0	0	0	0	46	positive	high	mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	Unknown	Unknown	Unknown	Natural Environment
+Wings	0	0	2	0	2	0	0	0	0	1	5	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Male	6 yrs	Adult	Natural Environment
+Zanahoria	0	0	0	0	1	0	0	0	0	0	1	positive	low	mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Female	9-11 yrs	Adult	Natural Environment

@@ -1,0 +1,105 @@
+AnimalID	Oesophagostumum	Necator	Strongyloides	Trichuris	Trichostrongylus	Mammonogamous	Ascaris	Physaloptera	Fasciola	Digenean trematode eggs	all_parasites_ct
+St_Patrick	0	0	0	0	0	0	0	0	0	0	0
+Abita	0	0	0	0	0	0	0	0	0	0	0
+Callopie	0	0	0	0	28	0	0	0	0	0	28
+Callopie	0	0	35	0	108	0	0	0	0	0	143
+Alana	0	0	0	0	0	0	0	0	0	0	0
+Unknown	0	0	0	0	15	0	0	0	0	0	15
+Dyani	0	0	1	0	16	0	0	0	0	0	17
+Abu	0	0	9	0	54	0	0	0	0	0	63
+Captive_Baby	0	0	0	0	6	0	0	0	0	0	6
+Marra	0	0	0	0	1	0	0	0	0	0	1
+Nilsson	0	0	0	0	0	0	0	0	0	0	0
+Unknown_FRC5	0	0	0	0	0	0	0	0	0	0	0
+Nyx	0	0	6	0	32	0	0	0	0	0	38
+Ariadne	0	0	0	0	1	0	0	0	0	0	1
+Ariadne	0	0	0	0	0	0	0	0	0	0	0
+Luna	0	0	0	0	3	0	0	0	0	0	3
+Minerva	0	0	0	0	5	0	0	0	0	0	5
+Jordan	0	0	0	0	1	0	0	0	0	0	1
+Corey	0	0	0	0	0	0	0	0	0	0	0
+Theodora	0	0	0	0	4	0	0	0	0	0	4
+Bathsheba	0	0	8	0	23	0	0	0	0	0	31
+Odysseus	0	0	0	0	0	0	0	0	0	0	0
+Ivy	0	0	0	0	2	0	0	0	0	0	2
+Ivy	0	0	0	0	15	0	0	0	0	0	15
+Ivanhoe	0	0	4	0	4	0	0	0	0	0	8
+Odysseus	0	0	0	0	22	0	0	0	0	0	22
+Octavia	0	0	0	0	2	0	0	0	0	0	2
+Unknown_G2.3	0	0	0	0	0	0	0	0	0	0	0
+Unknown_G2.2	0	0	21	0	57	0	0	0	0	2	80
+Wings	0	0	2	0	2	0	0	0	0	1	5
+Orf	0	0	0	0	3	0	0	0	0	0	3
+Juniper	0	0	0	0	2	0	0	0	0	0	2
+Orf	0	0	0	0	13	0	0	0	0	0	13
+Azalea	0	0	1	0	9	0	0	0	0	0	10
+Mimosa	0	0	1	0	4	0	0	0	0	0	5
+Agate	0	0	2	0	8	0	0	0	0	0	10
+Zanahoria	0	0	0	0	1	0	0	0	0	0	1
+Rambo_II	0	0	0	0	0	0	0	0	0	0	0
+Siobhan	0	0	0	0	5	0	0	0	0	0	5
+Unknown_G2.1	0	0	0	0	0	0	0	0	0	0	0
+Talia	0	0	0	0	0	0	0	0	0	0	0
+LFG_AM (LFM)	0	0	0	0	0	0	0	0	0	0	0
+LSG_AM (LSM)	0	0	0	7	0	0	0	0	0	0	7
+LSG_AM (LSM)	0	0	0	29	0	0	0	0	0	0	29
+LSG_AFO	0	0	0	16	0	0	0	0	0	0	16
+LSG_Unknown	0	0	0	88	0	0	0	0	0	0	88
+LSG_AM (LSM)	0	0	0	83	0	0	0	0	0	0	83
+LSG_AFO	0	0	0	53	0	0	0	0	0	0	53
+LSG_AFY	0	0	0	55	0	0	0	0	0	0	55
+LSG_AFO	0	0	0	4	0	0	0	0	0	0	4
+LSG_AM (LSM)	0	0	0	73	0	0	0	0	0	0	73
+LSG_AFY	0	0	0	0	0	0	0	0	0	0	0
+RSG_AM_2	0	0	0	1	0	0	0	0	0	0	1
+RSG_AM (RSM)	0	0	0	11	0	0	0	0	0	0	11
+RSG_AM (RSM)	0	0	0	21	0	0	0	0	0	0	21
+RSG_AM (RSM)	0	0	0	0	0	0	1	0	0	0	1
+RSG_AM (RSM)	0	0	0	0	0	0	0	0	0	0	0
+RSG_SubAM_1	0	0	0	19	0	0	0	0	0	0	19
+UNKG_Unknown_1	0	0	0	31	0	0	0	0	0	0	31
+UNKG_Unknown_2	0	0	0	14	0	0	0	0	0	0	14
+UNKG_Unknown_3	0	0	0	13	0	0	0	0	0	0	13
+UNKG_Unknown_4	0	0	0	20	0	0	0	0	0	0	20
+UNKG_Unknown_5	0	0	0	7	0	0	0	0	0	0	7
+UNKG_Unknown_6	0	0	0	50	0	0	0	0	0	0	50
+UNKG_Unknown_7	0	0	0	46	0	0	0	0	0	0	46
+UNKG_Unknown_8	0	0	0	6	0	0	0	0	0	0	6
+UNKG_Unknown_9	0	0	0	22	0	0	0	0	0	0	22
+UNKG_Unknown_10	0	0	0	34	0	0	0	0	0	0	34
+UNKG_Unknown_11	0	0	0	49	0	0	0	0	0	0	49
+UNKG_Unknown_12	0	0	0	3	0	0	0	0	0	0	3
+UNKG_Unknown_13	0	0	0	14	0	0	0	0	0	0	14
+UNKG_Unknown_14	0	0	0	17	0	0	0	0	0	0	17
+UNKG_Unknown_15	0	0	0	37	0	0	0	0	0	0	37
+UNKG_Unknown_16	0	0	0	29	0	0	0	0	0	0	29
+UNKG_Unknown_17	0	0	0	36	0	0	0	0	0	0	36
+UNKG_Unknown_18	0	0	0	44	0	0	0	0	0	0	44
+UNKG_Unknown_19	0	0	0	7	0	0	0	0	0	0	7
+UNKG_Unknown_20	0	0	0	0	0	0	0	0	0	0	0
+UNKG_Unknown_21	0	0	0	48	0	0	0	0	0	0	48
+UNKG_Unknown_22	0	0	0	0	0	0	0	0	0	0	0
+UNKG_Unknown_23	0	0	0	1	0	0	0	0	0	0	1
+UNKG_Unknown_24	0	0	0	0	0	0	0	0	0	0	0
+UNKG_Unknown_25	0	0	0	17	0	0	0	0	0	0	17
+UNKG_Unknown_26	0	0	0	0	0	0	0	0	0	0	0
+UNKG_Unknown_27	0	0	0	48	0	0	0	0	0	0	48
+UNKG_Unknown_28	0	0	0	25	0	0	0	0	0	0	25
+UNKG_Unknown_29	0	0	0	49	0	0	0	0	0	0	49
+UNKG_Unknown_30	0	0	0	3	0	0	0	0	0	0	3
+UNKG_Unknown_31	0	0	0	14	0	0	0	0	0	0	14
+UNKG_Unknown_32	0	0	0	58	0	0	0	0	0	0	58
+URG.1	1	0	3	0	5	0	0	0	0	0	9
+URG.10	0	0	0	0	0	0	0	0	0	0	0
+URG.11	0	0	0	0	0	0	0	0	0	0	0
+URG.12	0	0	0	0	0	0	0	0	0	0	0
+URG.13	0	0	2	0	1	0	0	0	0	0	3
+URG.14	0	0	0	0	1	0	0	0	0	0	1
+URG.2	0	0	0	0	0	0	0	0	0	0	0
+URG.3	0	0	0	0	0	0	0	0	0	0	0
+URG.4	0	0	0	0	3	0	0	0	0	0	3
+URG.5	0	0	0	0	5	0	0	0	0	0	5
+URG.6	1	0	0	0	1	0	0	0	0	0	2
+URG.7	0	0	0	0	0	0	0	0	1	0	1
+URG.8	0	0	0	0	1	0	0	0	0	0	1
+URG.9	0	0	2	0	44	0	0	0	0	0	46

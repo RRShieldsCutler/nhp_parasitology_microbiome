@@ -1,0 +1,105 @@
+SpeciesCommonName	SpeciesScientificName	CaptivityIndex	CaptiveWild	Population	AnimalID	Sex	Age	AgeClass	CollectionCondition
+mantled-howling-monkey	Alouatta palliata	0	Wild	Group 43	St_Patrick	Male	6 yrs	Adult	Capture
+mantled-howling-monkey	Alouatta palliata	0	Wild	Group 1	Abita	Female	16 yrs	Adult	Capture
+mantled-howling-monkey	Alouatta palliata	0	Wild	Group 1	Callopie	Female	7 yrs	Adult	Capture
+mantled-howling-monkey	Alouatta palliata	0	Wild	Group 1	Callopie	Female	7 yrs	Adult	Natural Environment
+mantled-howling-monkey	Alouatta palliata	0	Wild	Group 1	Alana	Female	Unknown	Unknown	Natural Environment
+mantled-howling-monkey	Alouatta palliata	0	Wild	Group 1	Unknown	Unknown	Unknown	Unknown	Natural Environment
+mantled-howling-monkey	Alouatta palliata	0	Wild	Group 1	Dyani	Male	Unknown	Unknown	Capture
+mantled-howling-monkey	Alouatta palliata	2	Captive	Las Pumas Rescue Center	Abu	Male	10 mo.	Infant	Unknown
+mantled-howling-monkey	Alouatta palliata	2	Captive	Las Pumas Rescue Center	Captive_Baby	Male	3.5 mo.	Infant	Unknown
+mantled-howling-monkey	Alouatta palliata	2	Captive	Las Pumas Rescue Center	Marra	Female	5 mo	Infant	Unknown
+mantled-howling-monkey	Alouatta palliata	2	Captive	Las Pumas Rescue Center	Nilsson	Male	2 yrs	Juvenile	Unknown
+mantled-howling-monkey	Alouatta palliata	2	Captive	Las Pumas Rescue Center	Unknown_FRC5	Female	Unknown (juvenile)	Juvenile	Unknown
+mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Nyx	Female	18 mo	Juvenile	Capture
+mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Ariadne	Female	6 yrs	Adult	Natural Environment
+mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Ariadne	Female	6 yrs	Adult	Natural Environment
+mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Luna	Female	5 yrs	Adult	Natural Environment
+mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Minerva	Female	22 yrs 	Adult	Natural Environment
+mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Jordan	Male	11 yrs	Adult	Natural Environment
+mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Corey	Male	8 yrs	Adult	Natural Environment
+mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Theodora	Female	19 yrs	Adult	Capture
+mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Bathsheba	Female	2-3 yrs	Adult	Capture
+mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Odysseus	Male	9 yrs	Adult	Natural Environment
+mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Ivy	Female	10 yrs	Adult	Natural Environment
+mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Ivy	Female	10 yrs	Adult	Capture
+mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Ivanhoe	Male	10 mo	Infant	Capture
+mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Odysseus	Male	9 yrs	Adult	Natural Environment
+mantled-howling-monkey	Alouatta palliata	0	Wild	Group 12	Octavia	Female	7 yrs	Adult	Natural Environment
+mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Unknown_G2.3	Female	30 mo	Juvenile	Capture
+mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Unknown_G2.2	Unknown	15 mo.	Juvenile	Natural Environment
+mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Wings	Male	6 yrs	Adult	Natural Environment
+mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Orf	Male	18 yrs	Adult	Natural Environment
+mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Juniper	Female	21 yrs	Adult	Natural Environment
+mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Orf	Male	18 yrs	Adult	Natural Environment
+mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Azalea	Female	22 yrs	Adult	Natural Environment
+mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Mimosa	Female	5 yrs	Adult	Capture
+mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Agate	Female	10 yrs	Adult	Natural Environment
+mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Zanahoria	Female	9-11 yrs	Adult	Natural Environment
+mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Rambo_II	Male	21 yrs	Adult	Capture
+mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Siobhan	Female	12 yrs	Adult	Natural Environment
+mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Unknown_G2.1	Unknown	Unknown	Juvenile	Natural Environment
+mantled-howling-monkey	Alouatta palliata	0	Wild	Group 2	Talia	Female	7 yrs	Adult	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	Long face group	LFG_AM (LFM)	Male	Unknown	Adult	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	Left Scar Group	LSG_AM (LSM)	Male	Unknown	Adult	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	Left Scar Group	LSG_AM (LSM)	Male	Unknown	Adult	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	Left Scar Group	LSG_AFO	Female	Unknown	Adult	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	Left Scar Group	LSG_Unknown	Female	Unknown	Adult	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	Left Scar Group	LSG_AM (LSM)	Male	Unknown	Adult	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	Left Scar Group	LSG_AFO	Female	Unknown	Adult	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	Left Scar Group	LSG_AFY	Female	Unknown	Adult	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	Left Scar Group	LSG_AFO	Female	Unknown	Adult	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	Left Scar Group	LSG_AM (LSM)	Male	Unknown	Adult	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	Left Scar Group	LSG_AFY	Female	Unknown	Adult	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	Right Scar Group	RSG_AM_2	Male	Unknown	Adult	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	Right Scar Group	RSG_AM (RSM)	Male	Unknown	Adult	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	Right Scar Group	RSG_AM (RSM)	Male	Unknown	Adult	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	Right Scar Group	RSG_AM (RSM)	Male	Unknown	Adult	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	Right Scar Group	RSG_AM (RSM)	Male	Unknown	Adult	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	Right Scar Group	RSG_SubAM_1	Male	Unknown	Subadult	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	UNKG_Unknown_1	Male	Unknown	Adult	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	UNKG_Unknown_2	Male	Unknown	Adult	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	UNKG_Unknown_3	Female	Unknown	Adult	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	UNKG_Unknown_4	Unknown	Unknown	Unknown	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	UNKG_Unknown_5	Male	Unknown	Adult	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	UNKG_Unknown_6	Male	Unknown	Adult	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	UNKG_Unknown_7	Male	Unknown	Adult	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	UNKG_Unknown_8	Unknown	Unknown	Unknown	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	UNKG_Unknown_9	Male	Unknown	Adult	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	UNKG_Unknown_10	Unknown	Unknown	Unknown	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	UNKG_Unknown_11	Unknown	Unknown	Unknown	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	UNKG_Unknown_12	Unknown	Unknown	Adult	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	UNKG_Unknown_13	Unknown	Unknown	Unknown	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	UNKG_Unknown_14	Unknown	Unknown	Unknown	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	UNKG_Unknown_15	Unknown	Unknown	Adult	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	UNKG_Unknown_16	Unknown	Unknown	Unknown	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	UNKG_Unknown_17	Unknown	Unknown	Unknown	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	UNKG_Unknown_18	Female	Unknown	Adult	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	UNKG_Unknown_19	Male	Unknown	Adult	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	UNKG_Unknown_20	Unknown	Unknown	Unknown	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	UNKG_Unknown_21	Male	Unknown	Adult	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	UNKG_Unknown_22	Unknown	Unknown	Unknown	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	UNKG_Unknown_23	Unknown	Unknown	Unknown	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	UNKG_Unknown_24	Unknown	Unknown	Unknown	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	UNKG_Unknown_25	Unknown	Unknown	Unknown	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	UNKG_Unknown_26	Male	Unknown	Adult	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	UNKG_Unknown_27	Female	Unknown	Adult	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	UNKG_Unknown_28	Unknown	Unknown	Unknown	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	UNKG_Unknown_29	Male	Unknown	Adult	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	UNKG_Unknown_30	Unknown	Unknown	Unknown	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	UNKG_Unknown_31	Unknown	Unknown	Unknown	Natural Environment
+red-shanked-douc	Pygathrix nemaeus	0	Wild	UNKG	UNKG_Unknown_32	Unknown	Unknown	Unknown	Natural Environment
+mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	URG.1	Male	Unknown	Unknown	Natural Environment
+mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	URG.10	Unknown	Unknown	Unknown	Natural Environment
+mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	URG.11	Unknown	Unknown	Unknown	Natural Environment
+mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	URG.12	Unknown	Unknown	Unknown	Natural Environment
+mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	URG.13	Unknown	Unknown	Unknown	Natural Environment
+mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	URG.14	Unknown	Unknown	Unknown	Natural Environment
+mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	URG.2	Female	Unknown	Unknown	Natural Environment
+mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	URG.3	Female	Unknown	Unknown	Natural Environment
+mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	URG.4	Female	Unknown	Unknown	Natural Environment
+mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	URG.5	Unknown	Unknown	Unknown	Natural Environment
+mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	URG.6	Unknown	Unknown	Unknown	Natural Environment
+mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	URG.7	Unknown	Unknown	Unknown	Natural Environment
+mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	URG.8	Unknown	Unknown	Unknown	Natural Environment
+mantled-howling-monkey	Alouatta palliata	0	Wild	UNKG_River	URG.9	Unknown	Unknown	Unknown	Natural Environment
