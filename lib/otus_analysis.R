@@ -125,9 +125,9 @@ length(rowpal.in)
 ###### Summer 2020 Updates #########
 # Let's use boruta to check for taxa that might track with infection.
 # Howlers
-otus.L6.h <- read.delim('../../data/qiime2_howlers_190820/otu_table_L6.txt', header=1,
+otus.L6.h <- read.delim('../../data/qiime_200602_wild-howlers/otu_table_L6.txt', header=1,
                         row.names = 1, check.names = F, skip=1, sep = '\t')
-map.h.rf <- read.delim('../../data/howler_microbe-parasite_map_w-groups_190820.txt',
+map.h.rf <- read.delim('../../data/howler_animal_parasite_map_200602.txt',
                        header = T, row.names = 1, check.names = F, sep = '\t')
 
 samps.h <- intersect(colnames(otus.L6.h), rownames(map.h.rf))
@@ -149,7 +149,7 @@ library(Boruta)
 
 L6.h.clr.t <- t(otus.L6.h.clr)[samps.h,]
 map.h.rf <- map.h.rf[samps.h, ]
-boruta.rfimp <- Boruta(x=L6.h.clr.t, y=factor(map.h.rf$all_parasites_presence_d))
+boruta.rfimp <- Boruta(x=L6.h.clr.t, y=factor(map.h.rf$all_parasites_presence))
 length(boruta.rfimp$finalDecision[boruta.rfimp$finalDecision == 'Tentative'])
 sig.taxa <- lapply(X=names(boruta.rfimp$finalDecision[boruta.rfimp$finalDecision == 'Tentative']),
                    FUN=function (xx) gsub(x=xx, pattern='.',replacement = ';', fixed = T))
@@ -158,9 +158,9 @@ length(sig.taxa)
 
 
 # Try it with L4
-otus.L4.h <- read.delim('../../data/qiime2_howlers_190820/otu_table_L4.txt', header=1,
+otus.L4.h <- read.delim('../../data/qiime_200602_wild-howlers/otu_table_L4.txt', header=1,
                         row.names = 1, check.names = F, skip=1, sep = '\t')
-map.h.rf <- read.delim('../../data/howler_microbe-parasite_map_w-groups_190820.txt',
+map.h.rf <- read.delim('../../data/howler_animal_parasite_map_200602.txt',
                        header = T, row.names = 1, check.names = F, sep = '\t')
 
 samps.h <- intersect(colnames(otus.L4.h), rownames(map.h.rf))
@@ -181,19 +181,19 @@ otus.L4.h.clr <- as.data.frame(otus.L4.h.c)
 
 L4.h.clr.t <- t(otus.L4.h.clr)[samps.h,]
 map.h.rf <- map.h.rf[samps.h, ]
-boruta.rfimp <- Boruta(x=L4.h.clr.t, y=factor(map.h.rf$all_parasites_presence_d))
+boruta.rfimp <- Boruta(x=L4.h.clr.t, y=factor(map.h.rf$all_parasites_presence))
 length(boruta.rfimp$finalDecision[boruta.rfimp$finalDecision == 'Tentative'])
 sig.taxa <- lapply(X=names(boruta.rfimp$finalDecision[boruta.rfimp$finalDecision == 'Tentative']),
                    FUN=function (xx) gsub(x=xx, pattern='.',replacement = ';', fixed = T))
-
+sig.taxa
 ## None
 
 
 ## Try with L5
 
-otus.L5.h <- read.delim('../../data/qiime2_howlers_190820/otu_table_L5.txt', header=1,
+otus.L5.h <- read.delim('../../data/qiime_200602_wild-howlers/otu_table_L5.txt', header=1,
                         row.names = 1, check.names = F, skip=1, sep = '\t')
-map.h.rf <- read.delim('../../data/howler_microbe-parasite_map_w-groups_190820.txt',
+map.h.rf <- read.delim('../../data/howler_animal_parasite_map_200602.txt',
                        header = T, row.names = 1, check.names = F, sep = '\t')
 
 samps.h <- intersect(colnames(otus.L5.h), rownames(map.h.rf))
@@ -214,18 +214,18 @@ otus.L5.h.clr <- as.data.frame(otus.L5.h.c)
 
 L5.h.clr.t <- t(otus.L5.h.clr)[samps.h,]
 map.h.rf <- map.h.rf[samps.h, ]
-boruta.rfimp <- Boruta(x=L5.h.clr.t, y=factor(map.h.rf$all_parasites_presence_d))
+boruta.rfimp <- Boruta(x=L5.h.clr.t, y=factor(map.h.rf$all_parasites_presence))
 length(boruta.rfimp$finalDecision[boruta.rfimp$finalDecision == 'Tentative'])
 sig.taxa <- lapply(X=names(boruta.rfimp$finalDecision[boruta.rfimp$finalDecision == 'Tentative']),
                    FUN=function (xx) gsub(x=xx, pattern='.',replacement = ';', fixed = T))
-
+sig.taxa
 ## None
 
 
 ## Doucs
-otus.L6.d <- read.delim('../../data/qiime2_doucs_190820/otu_table_L6.txt', header=1,
+otus.L6.d <- read.delim('../../data/qiime_200602_doucs/otu_table_L6.txt', header=1,
                         row.names = 1, check.names = F, skip=1, sep = '\t')
-map.d.rf <- read.delim('../../data/douc_microbe-parasite_map_w-groups_190820.txt',
+map.d.rf <- read.delim('../../data/douc_animal_parasite_map_200602.txt',
                        header = T, row.names = 1, check.names = F, sep = '\t')
 
 samps.d <- intersect(colnames(otus.L6.d), rownames(map.d.rf))
@@ -247,18 +247,18 @@ library(Boruta)
 
 L6.d.clr.t <- t(otus.L6.d.clr)[samps.d,]
 map.d.rf <- map.d.rf[samps.d, ]
-boruta.rfimp <- Boruta(x=L6.d.clr.t, y=factor(map.d.rf$all_parasites_presence_text))
-length(boruta.rfimp$finalDecision[boruta.rfimp$finalDecision == 'Tentative'])
+boruta.rfimp <- Boruta(x=L6.d.clr.t, y=factor(map.d.rf$all_parasites_presence))
+length(boruta.rfimp$finalDecision[boruta.rfimp$finalDecision == 'Confirmed'])
 sig.taxa <- lapply(X=names(boruta.rfimp$finalDecision[boruta.rfimp$finalDecision == 'Tentative']),
                    FUN=function (xx) gsub(x=xx, pattern='.',replacement = ';', fixed = T))
 sig.taxa
-# Only one obscure tentative
+# NONE
 
 
 # Try it with L4
-otus.L4.d <- read.delim('../../data/qiime2_doucs_190820/otu_table_L4.txt', header=1,
+otus.L4.d <- read.delim('../../data/qiime_200602_doucs/otu_table_L4.txt', header=1,
                         row.names = 1, check.names = F, skip=1, sep = '\t')
-map.d.rf <- read.delim('../../data/douc_microbe-parasite_map_w-groups_190820.txt',
+map.d.rf <- read.delim('../../data/douc_animal_parasite_map_200602.txt',
                        header = T, row.names = 1, check.names = F, sep = '\t')
 
 samps.d <- intersect(colnames(otus.L4.d), rownames(map.d.rf))
@@ -279,7 +279,7 @@ otus.L4.d.clr <- as.data.frame(otus.L4.d.c)
 
 L4.d.clr.t <- t(otus.L4.d.clr)[samps.d,]
 map.d.rf <- map.d.rf[samps.d, ]
-boruta.rfimp <- Boruta(x=L4.d.clr.t, y=factor(map.d.rf$all_parasites_presence_text))
+boruta.rfimp <- Boruta(x=L4.d.clr.t, y=factor(map.d.rf$all_parasites_presence))
 length(boruta.rfimp$finalDecision[boruta.rfimp$finalDecision == 'Confirmed'])
 sig.taxa <- lapply(X=names(boruta.rfimp$finalDecision[boruta.rfimp$finalDecision == 'Confirmed']),
                    FUN=function (xx) gsub(x=xx, pattern='.',replacement = ';', fixed = T))
@@ -287,17 +287,17 @@ sig.taxa <- lapply(X=names(boruta.rfimp$finalDecision[boruta.rfimp$finalDecision
 length(boruta.rfimp$finalDecision[boruta.rfimp$finalDecision == 'Tentative'])
 tent.taxa <- lapply(X=names(boruta.rfimp$finalDecision[boruta.rfimp$finalDecision == 'Tentative']),
                    FUN=function (xx) gsub(x=xx, pattern='.',replacement = ';', fixed = T))
+#no tent
 
 sig.taxa # "k__Bacteria;p__Tenericutes;c__RF3;o__ML615J;28"
-tent.taxa #"k__Bacteria;p__Firmicutes;c__OPB54;o__"  ,  "k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__
 
-L4
+
 
 ## Try with L5
 
-otus.L5.d <- read.delim('../../data/qiime2_doucs_190820/otu_table_L5.txt', header=1,
+otus.L5.d <- read.delim('../../data/qiime_200602_doucs/otu_table_L5.txt', header=1,
                         row.names = 1, check.names = F, skip=1, sep = '\t')
-map.d.rf <- read.delim('../../data/douc_microbe-parasite_map_w-groups_190820.txt',
+map.d.rf <- read.delim('../../data/douc_animal_parasite_map_200602.txt',
                        header = T, row.names = 1, check.names = F, sep = '\t')
 
 samps.d <- intersect(colnames(otus.L5.d), rownames(map.d.rf))
@@ -318,28 +318,30 @@ otus.L5.d.clr <- as.data.frame(otus.L5.d.c)
 
 L5.d.clr.t <- t(otus.L5.d.clr)[samps.d,]
 map.d.rf <- map.d.rf[samps.d, ]
-boruta.rfimp <- Boruta(x=L5.d.clr.t, y=factor(map.d.rf$all_parasites_presence_text))
+boruta.rfimp <- Boruta(x=L5.d.clr.t, y=factor(map.d.rf$all_parasites_presence))
 length(boruta.rfimp$finalDecision[boruta.rfimp$finalDecision == 'Confirmed'])
-sig.taxa <- lapply(X=names(boruta.rfimp$finalDecision[boruta.rfimp$finalDecision == 'Confirmed']),
+# sig.taxa <- lapply(X=names(boruta.rfimp$finalDecision[boruta.rfimp$finalDecision == 'Confirmed']),
                    FUN=function (xx) gsub(x=xx, pattern='.',replacement = ';', fixed = T))
 tent.taxa <- lapply(X=names(boruta.rfimp$finalDecision[boruta.rfimp$finalDecision == 'Tentative']),
                     FUN=function (xx) gsub(x=xx, pattern='.',replacement = ';', fixed = T))
 
-sig.taxa
-# "k__Bacteria;p__Tenericutes;c__RF3;o__ML615J;28;f__"
+
+
 tent.taxa
-# "k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__;f__"
+# "k__Bacteria;p__Tenericutes;c__RF3;o__ML615J;28;f__"
+
 L5.d.clr.t.df <- data.frame(L5.d.clr.t)
 
-boxplot(L5.d.clr.t.df$k__Bacteria.p__Tenericutes.c__RF3.o__ML615J.28.f__ ~ map.d.rf$all_parasites_presence_text)
-wilcox.test(L5.d.clr.t.df$k__Bacteria.p__Tenericutes.c__RF3.o__ML615J.28.f__ ~ map.d.rf$all_parasites_presence_text, paired=F)
+boxplot(L5.d.clr.t.df$k__Bacteria.p__Tenericutes.c__RF3.o__ML615J.28.f__ ~ map.d.rf$all_parasites_presence)
+wilcox.test(L5.d.clr.t.df$k__Bacteria.p__Tenericutes.c__RF3.o__ML615J.28.f__ ~ map.d.rf$all_parasites_presence, paired=F)
+# p = 0.006
 # Should go to L3 because of annotations
 
 
 # L3
-otus.L3.d <- read.delim('../../data/qiime2_doucs_190820/otu_table_L3.txt', header=1,
+otus.L3.d <- read.delim('../../data/qiime_200602_doucs/otu_table_L3.txt', header=1,
                         row.names = 1, check.names = F, skip=1, sep = '\t')
-map.d.rf <- read.delim('../../data/douc_microbe-parasite_map_w-groups_190820.txt',
+map.d.rf <- read.delim('../../data/douc_animal_parasite_map_200602.txt',
                        header = T, row.names = 1, check.names = F, sep = '\t')
 
 samps.d <- intersect(colnames(otus.L3.d), rownames(map.d.rf))
@@ -360,7 +362,7 @@ otus.L3.d.clr <- as.data.frame(otus.L3.d.c)
 
 L3.d.clr.t <- t(otus.L3.d.clr)[samps.d,]
 map.d.rf <- map.d.rf[samps.d, ]
-boruta.rfimp <- Boruta(x=L3.d.clr.t, y=factor(map.d.rf$all_parasites_presence_text))
+boruta.rfimp <- Boruta(x=L3.d.clr.t, y=factor(map.d.rf$all_parasites_presence))
 length(boruta.rfimp$finalDecision[boruta.rfimp$finalDecision == 'Confirmed'])
 sig.taxa <- lapply(X=names(boruta.rfimp$finalDecision[boruta.rfimp$finalDecision == 'Confirmed']),
                    FUN=function (xx) gsub(x=xx, pattern='.',replacement = ';', fixed = T))
@@ -370,18 +372,19 @@ sig.taxa
 # "k__Bacteria;p__Tenericutes;c__RF3"
 
 L3.d.clr.t.df <- data.frame(L3.d.clr.t)
-boxplot(L3.d.clr.t.df$k__Bacteria.p__Tenericutes.c__RF3 ~ map.d.rf$all_parasites_presence_text)
-wilcox.test(L3.d.clr.t.df$k__Bacteria.p__Tenericutes.c__RF3 ~ map.d.rf$all_parasites_presence_text, paired=F)
+boxplot(L3.d.clr.t.df$k__Bacteria.p__Tenericutes.c__RF3 ~ map.d.rf$all_parasites_presence)
+wilcox.test(L3.d.clr.t.df$k__Bacteria.p__Tenericutes.c__RF3 ~ map.d.rf$all_parasites_presence, paired=F)
+p = 0.000984
 
 L3.metamerge <- merge(L3.d.clr.t.df, map.d.rf, by=0)
 
-ggplot(L3.metamerge, aes(x=all_parasites_presence_text,
+ggplot(L3.metamerge, aes(x=all_parasites_presence,
                          y=k__Bacteria.p__Tenericutes.c__RF3,
-                         group=all_parasites_presence_text)) +
+                         group=all_parasites_presence)) +
   xlab("") + ylab("Tenericutes clade, class RF3\n(CLR abundance)") +
-  geom_violin(aes(fill=all_parasites_presence_text)) +
+  geom_violin(aes(fill=all_parasites_presence)) +
   geom_jitter(height = 0, width = 0.15, size=0.6, alpha=0.7) +
   theme_classic() + theme(axis.text = element_text(color='black')) +
   guides(fill=F) +
-  annotate("text", x=1.5, y=2.1, label="italic(p) == 0.008", size=3.5, parse=T)
+  annotate("text", x=1.5, y=2.1, label="italic(p) == 0.001", size=3.5, parse=T)
 ggsave('../../results/douc_tenericutes_violin.png', height = 4, width = 4, dpi=300)  
